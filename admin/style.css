@@ -1,0 +1,86 @@
+.table_orders th{
+	background: #0047AB;
+	color: white;
+	text-align: center;
+    font-size: 14px;    
+}
+.table_orders td {
+    border: 1px solid #efeded;
+    font-size: 14px;
+}
+.Merchant_Name h1 {
+    color: #0047AB;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+.Merchant_Name {
+    text-align: center;
+    padding: 20px;
+}
+.logout {
+    text-align: right;
+    /* display: flex; */
+    align-items: center;
+    width: 100%;
+}
+.logout a {
+    padding: 10px 40px;
+    text-decoration: none;
+    text-transform: uppercase;
+    background: #FD7B24;
+    color: white;
+}
+a.btn_action {
+    color: white;
+    text-decoration: none;
+}
+.table_orders table {
+    display: flex;
+}
+.APPROVED_MEssage {
+    max-width: 600px;
+    padding: 20px;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+    background: #0047AB;
+}
+.APPROVED_MEssage h1 {
+    text-transform: uppercase;
+    color: white;
+}
+.APPROVED_MEssage h3 {
+    color: white;
+}
+section#Message_container {
+    min-height: 800px;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.Approved_orders {
+    background: #c82333;
+    text-align: center;
+    padding: 20px;
+}
+.Approved_orders h1 {
+    color: white;
+    font-size: 22px;
+}
+section.Approved_orders_dashboard {
+    margin-top: 123px;
+}
+.Approved_orders_dashboard .Approved_orders {
+    background: green;
+}
+.logout {
+    padding-top: 26px;
+}
+.table_shipp {
+    overflow: hidden !important;
+    margin-bottom: 0px !important;
+}
+table.table.table-striped {
+    overflow: scroll;
+     max-height: 600px;
+}

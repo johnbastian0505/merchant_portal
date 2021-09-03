@@ -1,0 +1,268 @@
+.table_orders th{
+	background: #0047AB;
+	color: white;
+	text-align: center;
+    font-size: 14px;    
+}
+.table_orders td {
+    border: 1px solid #efeded;
+    font-size: 14px;
+}
+.Merchant_Name h1 {
+    color: #0047AB;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+.Merchant_Name {
+    text-align: center;
+    padding: 20px;
+}
+.logout {
+    text-align: right;
+    /* display: flex; */
+    align-items: center;
+    width: 100%;
+}
+.logout a {
+    padding: 10px 40px;
+    text-decoration: none;
+    text-transform: uppercase;
+    background: #FD7B24;
+    color: white;
+}
+a.btn_action {
+    color: white;
+    text-decoration: none;
+}
+.table_orders table {
+    overflow-y: scroll;
+    display: flex;
+}
+.APPROVED_MEssage {
+    max-width: 600px;
+    padding: 20px;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+    background: #0047AB;
+}
+.APPROVED_MEssage h1 {
+    text-transform: uppercase;
+    color: white;
+}
+.APPROVED_MEssage h3 {
+    color: white;
+}
+section#Message_container {
+    min-height: 800px;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.Approved_orders {
+    background: #c82333;
+    text-align: center;
+    padding: 20px;
+}
+.Approved_orders h1 {
+    color: white;
+    font-size: 22px;
+}
+section.Approved_orders_dashboard {
+    margin-top: 123px;
+}
+.Approved_orders_dashboard .Approved_orders {
+    background: green;
+}
+.logout {
+    padding-top: 26px;
+}
+.PO_Image {
+    text-align: center;
+    padding: 20px;
+}
+.PO_HEADER h2 {
+    color: #2f00ca;
+}
+.PO_HEADER {
+    text-align: center;
+}
+.divi_address p {
+    font-size: 18px;
+    color: #2f00ca;
+    line-height: 24px;
+    margin-bottom: 0px;
+}
+.divi_address {
+    text-align: center;
+}
+.PO_Order_Shipping_Address p {
+    margin-bottom: 5px;
+}
+.divi_address {
+    text-align: center;
+    margin-bottom: 19px;
+}.add_ress {
+    text-align: center;
+}
+.row.table_PO {
+    margin-top: 39px;
+}
+.footer_table td {
+    padding: 20px;
+}
+td.total_price {
+   width: 1000px;
+}
+.table_info {
+    margin-bottom: 0px;
+}
+
+.table_shipp {
+    overflow: hidden !important;
+}
+.table_info {
+    overflow: hidden !important;
+}
+.footer_table {
+    overflow: hidden !important;
+}
+.table_shipp {
+    overflow: hidden !important;
+    margin-bottom: 0px !important;
+}
+
+section.PO_Section {
+    display: flex;
+    align-items: center;
+}
+section.PO_Section .container {
+    border: 5px solid #2f00ca;
+    padding: 21px;
+    background: #fcf8f8;
+    background-image: url(../images/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.PO_Order_Shipping_Address {
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+@media print{
+
+    .signature *{
+        margin-top: 20px;
+    }
+   
+}
+
+.buttons_PO {
+    /* max-width: 400px; */
+    margin: 0 auto;
+    text-align: center;
+    margin: 20px 0px;
+}
+.buttons_PO button {
+    border: 0px;
+    padding: 20px 40px;
+    cursor: auto;
+    background: #0047ab;
+    color: white;
+    font-weight: 600;
+    margin: 20px;
+}
+.buttons_PO a {
+    background: #ff9715;
+    padding: 20px 40px;
+    color: white;
+}
+td button {
+    margin-bottom: 10px;
+    display: flex;
+}
+div.b128 {
+    border-left: 3px black solid !important;
+    height: 84px !important;
+    width: 100% !important;
+}
+.Tracking_no {
+    text-align: center;
+    max-width: 400px;
+    margin: 0 auto;
+}
+.Tracking_no p {
+    font-weight: 700;
+    font-size: 24px;
+}
+.table_PO {
+    max-width: 900px;
+    margin: 0 auto;
+}
+td.Product_neme {
+    width: 1200px;
+}
+.consignee p {
+   margin-bottom: 0px;
+   font-size: 19px;
+}
+.consignee {
+    margin-top: 10px;
+}
+#Way_Bill_LBC p {
+    margin: 0px;
+    font-size: 19px;
+}
+.consignee_address {
+    margin: 10px 0px;
+    border-bottom: 2px solid black;
+}
+p.bottom {
+    padding-bottom: 16px;
+}
+.shipper {
+    margin-top: 10px;
+}
+.shipper_address {
+    margin: 0px 0px 0px;
+    border-bottom: 2px solid black;
+}
+.shipper p {
+   margin-bottom: 0px;
+   
+}
+.type_of.product {
+    border-bottom: none;
+}
+
+.signature {
+    text-align: center;
+    border-top: 2px solid;
+    margin-top: 30px;
+}
+.row.last_row {
+    margin-top: 26px;
+}
+.col-lg-6.encode {
+    text-align: right;
+}
+section#Way_Bill_LBC .container {
+    padding: 25px;
+    border: 3px solid blue;
+    background-image: url(../images/background.png);
+    background-size: cover;
+    
+}
+div.b128{
+ height: 30px;
+}
+.barcode {
+    text-align: center;
+    align-items: center;
+    max-width: 500px;
+    margin: 10px auto;
+}
+.row.signature_row {
+    margin-top: 36px;
+}
