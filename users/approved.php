@@ -245,7 +245,7 @@
 		                  <body>
 		                  	<div class="buttons_PO">
 		                  		<button onclick="window.print()" >Print this page</button>
-		                  		<a href="dashboard_user.php">BACK</a>
+		                  		<a href="dashboard_user.php">BACKs</a>
 		                  	</div>
 		                  	
 		                  	<section id="Way_Bill_LBC">
