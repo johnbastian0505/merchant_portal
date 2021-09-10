@@ -140,7 +140,7 @@
 								<button type="button" class="btn btn-success">
 									<a href="approved.php?id=<?php echo $row['id'] ?>" class="btn_action">APPROVED</a>
 								</button>
-
+								
 								<button type="button" class="btn btn-success">
 									<a href="po.php?id=<?php echo $row['id'] ?>" class="btn_action">VIEW PO</a>
 								</button>

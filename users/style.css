@@ -266,3 +266,7 @@ div.b128{
 .row.signature_row {
     margin-top: 36px;
 }
+svg#barcode {
+    width: 78%;
+    height: 137px;
+}

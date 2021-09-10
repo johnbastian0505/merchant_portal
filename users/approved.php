@@ -128,7 +128,7 @@
 		  <ServiceMode>8</ServiceMode>
 		  <CODAmount>0</CODAmount>
 
-		  <PreferredDate>'.$date_format.' 16:51:34</PreferredDate>
+		  <PreferredDate>09/11/2021 16:51:34</PreferredDate>
 
 		  <Consignee>'.$Customer_Name.'</Consignee>
 		  <ConsigneeStBldg>'.$shipper_address_explode[2].'</ConsigneeStBldg>
@@ -234,6 +234,12 @@
 		                  	<title>PO Download</title>
 		                  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 							<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+									<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+		<script type="text/javascript" src="https://cdn.jsdelivr.net/jsbarcode/3.6.0/JsBarcode.all.min.js"></script>
+		<script type="text/javascript" src="customBarcodeGenerate.js"></script>
+
 		                  </head>
 
 		                  <body>
@@ -251,16 +257,10 @@
 		                  			</div>
 		                  			<div class="row">
 		                  				<div class="col-lg-6">
-		                  					<div class="barcode">
-								                <?php
-																	if(!empty($tracking_no_series)){
-																		$bar_code = $tracking_no_series;
-																		include 'barcode128.php';
-																		echo  bar128(stripcslashes('Tracking No.' . $bar_code)) ;
-																	}	
-																?>
-				                  			</div>
-		                  					
+		<input type="text" name="barcodeValue" id="barcodeValue" class="form-control" value=<?php echo $tracking_no_series;?> >									
+		<input type="button" id="generateBarcode" name="generateBarcode" class="btn btn-success form-control" value="Generate">
+		<svg id="barcode"></svg>
+		<h2 class="COD"><b>COD</b> ₱0</h2>
 		                  				</div>
 		                  				<div class="col-lg-6">
 		                  					<div class="POD_required">
@@ -272,6 +272,7 @@
 		                  					<div class="Tracking_type">
 		                  						<h2>AIR</h2>
 		                  					</div>
+		                  					
 		                  				</div>
 		                  			</div>
 		                  			<div class="row">
@@ -316,6 +317,7 @@
 			                  						<p><b>Instruction:</b> Note</p>
 			                  						<p><b>Pay Mode:</b> Collect shipper</p>
 			                  						<p><b>Service Mode:</b> DOOR TO DOOR</p>
+			                  						
 			                  					</div>
 		                  					</div>
 		                  					
